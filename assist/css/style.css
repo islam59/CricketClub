@@ -1,0 +1,165 @@
+/**********************************/
+/**Themename: Temp#Crictet*********/
+/**Author Name: VP-59**************/
+/**Author Email: mail@example.com**/
+/**********************************/
+
+/*******************************************************************************************************************************/
+body{
+	background-size: 100%;    
+	background-color: rgba(200,0,0,0.3);
+	background-repeat: no-repeat;    background-attachment: fixed;    background-position: center; 
+
+	font-family: helvetica,"Segoe UI",Arial,sans-serif;
+}
+.thumbnail{ border:none; }
+/*******************************************************************************************************************************/
+/***Header***/
+.section-header{/**/ font-family: helvetica,"Segoe UI",Arial,sans-serif; }
+
+nav.shrink{	background-color:rgba(0,0,0,0.9);	height: 40px; transition-duration: 3s;}
+.menu-link-item{
+	color:#4169E1; font-size: 15px; text-align: center; 
+}
+.menu-link-item:hover{ opacity: 0.5; transition-duration: 0.5s;  text-align: center; }
+.header-logo-image{ position: fixed; width: 100px; height:100px;}
+/*******************************************************************************************************************************/
+/***slider***/
+.section-slider{ position: relative; font-family: helvetica,"Segoe UI",Arial,sans-serif;}
+.slider-img{ width: 100%; }
+.slider-overley{ 
+	height:650px; 	background: rgba(0,0,0,0.5); 	margin-top:-650px;
+	z-index: 100; position: relative;	line-height: 650px; overflow: hidden;
+}
+.slider-overley h1{	 text-align: center;	color:#007FFF; font-size:500%; margin-top:300px; }
+.slider-overley img{	margin-top:-50px; width: 100px; height:100px; }
+/*******************************************************************************************************************************/
+/***ABOUT***/
+.section-about{
+	font-family: helvetica,"Segoe UI",Arial,sans-serif;
+	padding: 25px 0px 0px 0px;  margin-top:50px;
+}
+.section-about a{ text-decoration: none; }
+.about-header{ text-align: center; padding:5px 0px; margin-bottom: 50px; color:#007FFF;  }
+.about-header img{ width:100px; }
+.about-header h2{ font-weight: bold;  }
+.about-header img:Hover{ opacity: 1; cursor:pointer; }
+.about-header h2:Hover{ opacity: 0.8; cursor:pointer;  }
+.thumbnail-about{ border-radius: 0px;  overflow: hidden; max-height:400px; padding:0px; }
+.thumbnail-image{
+	overflow: hidden; cursor: pointer;
+}
+.thumb-img{
+	width:100%;
+	max-height: 300px; min-height: 300px;
+	transition: all 1s ease; 
+}
+.thumb-img:hover{
+	transform: scale(1.2);
+}
+.caption-about{ background-color:rgba(0,0,0,1); }
+.caption-about h3{  color:rgba(255,255,255,1); text-align: center; padding: 0px; }
+.caption-about h3:hover{  color:rgba(255,255,255,0.5); cursor: pointer; }
+.thumb-img:hover .caption h3{
+	 color:rgba(255,255,255,0.5);
+}
+/*******************************************************************************************************************************/
+/**SCHEDULE**/
+.section-schedule{ margin-top:50px; font-family: helvetica,"Segoe UI",Arial,sans-serif;}
+.schedule-header{
+	background-color: rgba(0,0,0,0.9); padding: 10px; font-size:150%; color:white;
+}
+.schedule-body{
+	 padding: 5px 10px ; font-size:12px;  color:white;
+}
+.schedule-item{background-color: rgba(0,0,0,0.7); }
+.schedule-body h3{ color:white; }
+
+/*******************************************************************************************************************************/
+/**Managements.**/
+.section-management{
+	margin-top:50px; margin-bottom: 50px; font-family: helvetica,"Segoe UI",Arial,sans-serif;
+}
+.section-management h3{ text-align: center; color:#4169E1; background-color: rgba(0,0,0,0.9); padding: 10px;}
+.thumbnail-teams{
+	border-radius: 0px; padding:0px;overflow: hidden;
+}
+.img-teams-block{
+	overflow: hidden;
+}
+ .teams-img{ 
+	width:100%; 
+	max-height: 200px; min-height: 300px;
+	transition: all 1s ease; 
+ }
+.teams-img:hover{
+	transform: scale(1.2);
+}
+.caption-teams{ background-color:rgba(0,0,0,1); }
+.caption-teams h4{  color:rgba(255,255,255,1); text-align: center; padding: 0px; }
+.caption-teams h4:hover{  color:rgba(255,255,255,0.5); cursor: pointer; }
+.thumb-img:hover .caption h3{
+	 color:rgba(255,255,255,0.5);
+}
+
+/*******************************************************************************************************************************/
+/**Sponsor's**/
+.section-sponsors{
+	text-align: center; background-color:rgba(250,250,250,0.6); padding: 0px 0px 50px 0px;
+	margin-top:50px; margin-bottom: 50px; font-family: helvetica,"Segoe UI",Arial,sans-serif;
+}
+.section-sponsors h3{ background-color:rgba(0,0,0,1); padding: 10px;} 
+.sponsor-header{ text-align: center; color:#4169E1; }
+
+.sponsor-logo{ width:20%; margin:0px 20px;}
+.sponsor-logo a{ padding: 2px; }
+.sponsor-logo img{
+	width:180px; height:80px; margin-top:10px; margin-bottom: 10px;
+	transition: all 1s ease; 
+}
+
+.sponsor-logo img:hover{
+	transform: scale(1.2); 
+}
+/*******************************************************************************************************************************/
+/**Footer**/
+.section-footer{
+	text-align: center; font-family: helvetica,"Segoe UI",Arial,sans-serif;
+	background-color: rgba(0,0,0,0.9);
+	padding: 50px 0px;
+}
+.section-footer a{
+	border:1px solid #4169E1; padding: 10px;
+	color:#4169E1; font-size:1.3em;
+}
+.section-footer a:hover{ 
+	background-color: rgba(250,250,250,0.2); 
+	transition-duration: 1s; 
+}
+
+/****************************************************************************************/
+.about-page{ background-color: rgba(250,250,250,0.7);	padding:1%; font-family: helvetica,"Segoe UI",Arial,sans-serif;}
+.about-body{ padding:2%; }
+.about-body p{ /*****/ }
+.about-body ul{ /*****/ }
+/****************************************************************************************/
+.news-page{ background-color: rgba(250,250,250,0.9); font-family: helvetica,"Segoe UI",Arial,sans-serif;}
+.news-page .thumbnail { padding: 0px; overflow: hidden; border-radius: 0px;}
+.news-page .caption{  border-radius: none;  }
+.news-page .caption p{  text-align: justify;  }
+
+ .news-img{
+ 	width: 100%; border-radius: none;
+ 	transition: all 1s ease;
+ }
+ .news-img:hover{
+	transform: scale(1.1); 
+}
+
+/************************************************************88*/
+.gallery-img{
+	height:200px; width:100%; margin:10px 0px; transition: all 1s ease;
+}
+.gallery-img:Hover{
+	transform: scale(1.2); 
+}
